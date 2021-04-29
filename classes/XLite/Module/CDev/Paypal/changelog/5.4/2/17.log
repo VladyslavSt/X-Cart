@@ -1,0 +1,5 @@
+Version 5.4.2.17
+
+Fixes (1)
+2021-03-18 - [Bug] Handlers for CAPTURE and AUTHORIZE requests have been fixed. #XCB-400 #CDev-Paypal
+

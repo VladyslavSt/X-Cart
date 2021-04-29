@@ -1,0 +1,7 @@
+Version 5.4.2.13
+
+Fixes (3)
+2021-03-10 - [Bug] On iOS text input fields were displayed with a shadow, which was not needed. #XCB-299 #XC-CrispWhiteSkin
+2021-03-04 - [Bug] 2nd level nested menu was not getting displayed + Some layout issues related to displaying the elements of the menu. Fixed. #XCB-266 #QSL-MultilevelMenu #XC-CrispWhiteSkin
+2021-03-04 - [Bug] Mailchimp. Layout issues related to displaying the checkboxes on the cart.php?target=mailchimp_subscriptions page. Fixed. #XCB-250 #XC-MailChimp #XC-CrispWhiteSkin
+

@@ -1,0 +1,25 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Payment\Method:
+  - service_name: StripeConnect
+    class: Module\XC\Stripe\Model\Payment\StripeConnect
+    type: C
+    orderby: -10301
+    countries: [AT, AU, BE, BR, CA, CH, DE, DK, EE, ES, FI, FR, GB, GR, HK, IE, IN, IT, JP, LT, LU, LV, MX, MY, NL, 'NO', NZ, PL, PT, SE, SG, SI, SK, US]
+    translations: [{ code: en, name: 'Stripe Connect' }]
+    settings:
+      - name: publishKey
+      - name: accessToken
+      - name: clientId
+      - name: publishKeyTest
+      - name: accessTokenTest
+      - name: clientIdTest
+      - name: mode
+        value: live
+      - name: prefix
+        value: xcart

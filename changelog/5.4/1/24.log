@@ -1,0 +1,10 @@
+Version 5.4.1.24
+
+Improvements (1)
+2021-02-01 - [Story] Improved tooltip behavior for folded admin menu. #XCC-949 #CDev-Core #XC-Service #XC-Cloud
+
+Fixes (3)
+2021-01-29 - [Bug] Reduced the default size of category images.  #XCB-297 #CDev-Core
+2021-01-27 - [Bug] Adjusted the sorting of users by the Access level on the Users List page. #XCB-222 #CDev-Core #XC-MultiVendor
+2021-02-08 - [Bug] In a store using Russian localization, a customer address was not getting removed from the address book after clicking the button to remove it. Fixed. #XCB-176 #CDev-Core
+

@@ -1,0 +1,16 @@
+Version 5.4.1.25
+
+Improvements (1)
+2021-02-11 - [Story] Added a new setting: Terms and conditions agreement type = Clickwrap | Browsewrap. #XCC-1545 #CDev-Core #XC-FastLaneCheckout
+
+Fixes (9)
+2021-02-19 - [Bug] The availability of the Place order button did not depend on the "I accept the Terms & Conditions" checkbox option for Clickwrap mode. Fixed. Now with any settings the "Terms & Conditions" open in a popup. #XCB-340 #CDev-Core #CDev-Paypal #XC-FastLaneCheckout
+2021-02-26 - [Bug] Optimized the number of requests when opening a product details page with cold cache. #XCB-306 #CDev-Core
+2021-02-15 - [Bug] If the Roles field was left blank when creating an admin user profile, after saving the profile details the Roles field remained blank. Fixed.  #XCB-275 #CDev-Core
+2021-02-12 - [Bug] After clicking on "Click to specify", the focus now switches to the respective field at once. #XCB-270 #CDev-Core
+2021-02-22 - [Bug] Fixed the incorrect spelling of the name 'XLite\View\ToolTip' in some twig files. The correct spelling is "\XLite\View\Tooltip". #XCB-260 #CDev-Core
+2021-02-11 - [Bug] Added a bottom margin to the Cash On Delivery section in the add-ons UPS and USPS. #XCB-256 #CDev-Core
+2021-02-20 - [Bug] Removed the outdated JS code jQuery.browser.msie #XCB-255 #CDev-Core
+2021-02-09 - [Bug] Fatal error when trying to access admin.php?target=notification. Fixed. Now "Page not found" is displayed. #XCB-253 #CDev-Core #XC-ThemeTweaker
+2021-02-16 - [Bug] The space between the sticky panel and the CSV delimiter field is now two rhythms (48px). #XCB-234 #CDev-Core
+

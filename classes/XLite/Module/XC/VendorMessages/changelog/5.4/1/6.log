@@ -1,0 +1,5 @@
+Version 5.4.1.6
+
+Fixes (1)
+2021-03-23 - [Bug] Messages did not show up in vendor area. Fixed. #XCB-337 #XC-VendorMessages
+

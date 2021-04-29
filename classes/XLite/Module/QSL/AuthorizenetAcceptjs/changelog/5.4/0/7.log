@@ -1,0 +1,6 @@
+Version 5.4.0.7
+
+Fixes (2)
+2021-03-19 - [Bug] Authorize.Net Accept.js. After a partial refund attempt and getting code 3, Void operation was carried out. Fixed. #XCB-405 #QSL-AuthorizenetAcceptjs
+2021-03-24 - [Bug] Authorize.Net Accept.js. The product name value was sent as empty. Fixed. #XCB-394 #QSL-AuthorizenetAcceptjs
+

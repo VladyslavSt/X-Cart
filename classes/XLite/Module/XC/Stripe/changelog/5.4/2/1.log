@@ -1,0 +1,5 @@
+Version 5.4.2.1
+
+Fixes (1)
+2021-04-01 - [Bug] Fatal error when updating version 5.4.0.10 to 5.4.1.26. Fixed. #XCB-435 #XC-Stripe
+

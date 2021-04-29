@@ -1,0 +1,6 @@
+Version 5.4.1.27
+
+Fixes (2)
+2021-03-19 - [Bug] Changed the text of the message shown if an image could not be downloaded during an import. #XCB-346 #CDev-Core
+2021-03-26 - [Bug] With a non-empty web_dir, when creating an order, local images are now pulled via the file system.  #XCB-284 #CDev-Core
+

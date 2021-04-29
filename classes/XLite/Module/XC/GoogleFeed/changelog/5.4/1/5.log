@@ -1,0 +1,5 @@
+Version 5.4.1.5
+
+Fixes (1)
+2021-02-18 - [Bug] Google Product Feed error if there was a CTRL+Z char in the product description. Fixed. #XCB-343 #XC-GoogleFeed
+

@@ -1,0 +1,35 @@
+{##
+ # X-Payments card
+ #
+ #}
+
+{% if this.isPlainText() %}
+
+  {{ this.card.cardType }}
+  {{ this.card.first6 }}{{ this.card.placeholder }}{{ this.card.last4 }}
+
+  {% if this.card.expire %}
+    {{ this.card.expire }}
+  {% endif %}
+
+{% else %}
+
+  <div class="{{ this.getCardBlockClass() }}">
+    <span class="card-icon-container">
+      <span class="xpayments-card-type {{ this.card.cssType }}">
+        <img src="skins/customer/images/spacer.gif" alt="{{ this.card.cardType }}" />
+      </span>
+    </span>
+    <span class="card-number-container">
+      <span class="card-number">
+        {{ this.card.first6 }}<span class="card-placeholder">{{ this.card.placeholder }}</span>{{ this.card.last4 }}
+      </span>
+      {% if this.card.expire %}
+         <span class="card-expire">
+           {{ this.card.expire }}
+        </span>
+      {% endif %}
+    </span>
+  </div>
+
+{% endif %}

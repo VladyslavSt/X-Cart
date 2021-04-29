@@ -1,0 +1,5 @@
+Version 5.4.2.2
+
+Fixes (1)
+2021-03-04 - [Bug] The "Request to review purchased products" notification was not getting sent. Fixed. #XCB-352 #XC-Reviews
+

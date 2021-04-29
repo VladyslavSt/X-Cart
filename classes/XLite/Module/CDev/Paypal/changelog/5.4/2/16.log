@@ -1,0 +1,6 @@
+Version 5.4.2.16
+
+Fixes (2)
+2021-02-19 - [Bug] The availability of the Place order button did not depend on the "I accept the Terms & Conditions" checkbox option for Clickwrap mode. Fixed. Now with any settings the "Terms & Conditions" open in a popup. #XCB-340 #CDev-Core #CDev-Paypal #XC-FastLaneCheckout
+2021-02-19 - [Bug] Payment with PayPal Checkout did not work with serialize_precision != -1 in php.ini. Fixed. #XCB-152 #CDev-Paypal
+

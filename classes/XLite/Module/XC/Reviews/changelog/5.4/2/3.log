@@ -1,0 +1,5 @@
+Version 5.4.2.3
+
+Fixes (1)
+2021-03-23 - [Bug] Product review vs Loyalty points. Points for writing a review were not given if moderation of reviews by an admin was not enabled.  Fixed. #XCB-339 #XC-Reviews
+

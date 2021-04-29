@@ -1,0 +1,6 @@
+Version 5.4.1.12
+
+Fixes (2)
+2021-02-11 - [Bug] Blank page if choosing to edit an email notification. Fixed. #XCB-326 #XC-ThemeTweaker
+2021-02-09 - [Bug] Fatal error when trying to access admin.php?target=notification. Fixed. Now "Page not found" is displayed. #XCB-253 #CDev-Core #XC-ThemeTweaker
+

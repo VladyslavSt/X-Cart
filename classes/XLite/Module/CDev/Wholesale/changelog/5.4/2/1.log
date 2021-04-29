@@ -1,0 +1,5 @@
+Version 5.4.2.1
+
+Fixes (1)
+2021-03-23 - [Bug] Wholesale. On the product details page, the fractional part of the Save value was truncated. Fixed. #XCB-332 #CDev-Sale #CDev-Wholesale
+

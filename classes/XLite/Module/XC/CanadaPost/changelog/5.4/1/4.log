@@ -1,0 +1,5 @@
+Version 5.4.1.4
+
+Fixes (1)
+2021-03-30 - [Bug] Variant weight value can now be pulled as the actual weight of an ordered item for use on the Shipment tab of order details. #XCB-430 #XC-CanadaPost
+

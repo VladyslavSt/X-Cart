@@ -1,0 +1,10 @@
+Version 5.4.1.26
+
+Fixes (6)
+2021-03-12 - [Bug] Fatal error if updating a user profile via the store Admin area with the cookie language = en_US set for admin. Fixed. #XCB-344 #CDev-Core
+2021-03-16 - [Bug] When trying to access a missing add-on via a URL, for example, admin.php?target=module&moduleId=something, the user is redirected to the store's "Page not found" page at /admin.php?target=page_not_found. #XCB-290 #CDev-Core
+2021-03-05 - [Bug] When sending an email linking to external image sources, curl descriptors were not removed. Fixed. #XCB-285 #CDev-Core
+2021-03-04 - [Bug] Empty translations were saved to database when editing shipping methods if the translations for the current language were missing. Fixed. #XCB-281 #CDev-Core
+2021-02-27 - [Bug] FLC. Class attributes on checkout page elements were duplicated. Fixed. #XCB-274 #CDev-Core
+2021-02-25 - [Bug] Removed the ability to create more than one order list filters with the same name.  #XCB-245 #CDev-Core
+

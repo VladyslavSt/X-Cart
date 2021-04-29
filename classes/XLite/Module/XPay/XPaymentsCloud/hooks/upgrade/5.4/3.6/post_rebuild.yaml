@@ -1,0 +1,35 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+XLite\Model\Config:
+  - name: use_xp_cloud_for_subscriptions
+    category: XPay\XPaymentsCloud
+    type: hidden
+  - name: card_number_display_format 
+    category: XPay\XPaymentsCloud
+    type: XLite\Module\XPay\XPaymentsCloud\View\FormField\Select\CardNumberDisplayFormat
+    orderby: 60
+    value: 'U' 
+    translations:
+      - code: en
+        option_name: Card Number Display Format
+        option_comment: According to the PCI-DSS, the first six and last four digits are the maximum number of digits to be displayed.
+  - name: settings_page_heading
+    category: XPay\XPaymentsCloud
+    type: hidden
+    ordervy: 70
+    translations:
+      - code: en
+        option_name: 'X-Payments Cloud Settings'
+  - name: enable_subscription_management
+    category: XPay\XPaymentsCloud
+    type: XLite\View\FormField\Input\Checkbox\OnOff
+    orderby: 80
+    value: true
+    translations:
+      - code: en
+        option_name: 'Enable Subscription Management'
+        option_comment: 'When enabled, you can create and manage subscription plans for products. When disabled, the interface for the management of subscriptions is turned off; any active subscriptions started prior to that will remain active until the subscription period expires.'

@@ -1,0 +1,9 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# Copyright (c) 2011-present Qualiteam software Ltd. All rights reserved.
+# See https://www.x-cart.com/license-agreement.html for license details.
+
+XLite\Model\Config :
+  - { name : terms_conditions_confirm_type, category : General, type : 'XLite\View\FormField\Select\TermsConfirmType', orderby : 37000, value : 'Browsewrap', translations : [ { code : en, option_name : 'Terms and conditions agreement type', option_comment : 'Clickwrap agreement requires express manifestation of assent to the terms of service by ticking a checkbox before placing an order. Browsewrap agreement binds the customer by virtue of them browsing the site and does not require an action to affirm their consent.' } ] }

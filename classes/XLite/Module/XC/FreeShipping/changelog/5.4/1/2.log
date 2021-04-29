@@ -1,0 +1,5 @@
+Version 5.4.1.2
+
+Fixes (1)
+2021-03-23 - [Bug] The message "Coupon discount: $0.00" was displayed on the order invoice after editing the order even when no coupon had been applied. Fixed. #XCB-354 #XC-FreeShipping
+

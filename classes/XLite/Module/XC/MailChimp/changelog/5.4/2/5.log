@@ -1,0 +1,5 @@
+Version 5.4.2.5
+
+Fixes (1)
+2021-04-02 - [Bug] Error on order placement with Mailchimp enabled and configured. Fixed. #XCB-434 #XC-MailChimp
+

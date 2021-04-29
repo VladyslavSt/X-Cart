@@ -1,0 +1,5 @@
+Version 5.4.1.2
+
+Fixes (1)
+2021-02-22 - [Bug] Canadian taxes & Sales taxes vs Coupons. A free shipping coupon applied to an order was not taken into account in tax calculation. Fixed. #XCB-249 #CDev-SalesTax #XC-CanadianTaxes
+

@@ -1,0 +1,5 @@
+Version 5.4.1.13
+
+Fixes (1)
+2021-03-04 - [Bug] Data cache is now force flushed  and rebuilt after making changes to templates via the Admin area -> Look & Feel -> Edited templates section. #XCB-308 #XC-ThemeTweaker
+

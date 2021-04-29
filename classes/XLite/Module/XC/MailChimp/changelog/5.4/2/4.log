@@ -1,0 +1,6 @@
+Version 5.4.2.4
+
+Fixes (2)
+2021-03-04 - [Bug] Verified user vs Mailchimp. Subscription confirmation email was not sent if Moderated registration = ON. Fixed. #XCB-279 #QSL-VerifiedUsers #XC-MailChimp
+2021-03-04 - [Bug] Mailchimp. Layout issues related to displaying the checkboxes on the cart.php?target=mailchimp_subscriptions page. Fixed. #XCB-250 #XC-MailChimp #XC-CrispWhiteSkin
+

@@ -1,0 +1,60 @@
+{##
+ # Connect widget
+ #
+ #}
+{% if this.isDelayedPaymentEnabled() %}
+  <div id="xpayments-delayed-payment-info-use-saved" style="display: none;">
+    <div class="alert alert-info" role="alert">
+      <strong class="important-label">{{ t('Important!') }}</strong>
+      {{ t('The exact amount of the order will be debited from your card later.') }}
+    </div>
+  </div>
+  <div id="xpayments-delayed-payment-info-save-new" style="display: none;">
+    {% set cardSetupAmount = this.getCardSetupAmount() %}
+    <div class="alert alert-info" role="alert">
+      <strong class="important-label">{{ t('Important!') }}</strong>
+      {{ t('We will authorize') }}
+      {% if cardSetupAmount %}
+        <strong>{{ this.formatPrice(cardSetupAmount) }}</strong>
+      {% else %}
+        {{ t('a small amount') }}
+      {% endif %}
+      {{ t('on your credit or debit card in order to attach it to this order. The amount will be released back to your
+      card, usually within a few seconds. The exact amount of the order will be debited from your card later.') }}
+    </div>
+  </div>
+{% endif %}
+
+<div id="xpayments-iframe-container"></div>
+<script>
+  var xpaymentsWidgetConfig = {
+    account: '{{ this.getXpaymentsMethod().getSetting('account') }}',
+    widgetKey: '{{ this.getXpaymentsMethod().getSetting('widget_key') }}',
+    container: '#xpayments-iframe-container',
+    form: 'form.place',
+    showSaveCard: {% if this.isHideSaveCardCheckbox() %}false{% else %}true{% endif %},
+    customerId: '{{ this.getXpaymentsCustomerId() }}',
+    order: {
+      total: '{{ this.getXpaymentsCartTotal() }}',
+      currency: '{{ this.getCart().getCurrency().getCode() }}',
+      tokenizeCard: {% if this.isDelayedPaymentEnabled() %}1{% else %}0{% endif %}
+    },
+    company: {
+      name: '{{ this.config.Company.company_name }}',
+      countryCode: '{{ this.config.Company.location_country }}',
+    },
+    language: '{{ this.getCurrentLanguage().getCode() }}',
+    applePay: {
+      requiredShippingFields: [],
+      requiredBillingFields: [],
+      shippingMethods: []
+    },
+  }
+  var xpaymentsWidgetWrapperConfig = {
+    fastLaneCheckout: {% if 'fast-lane' == this.config.General.checkout_type %}1{% else %}0{% endif %},
+    applePaySelected: {% if this.isXpaymentsApplePaySelected() %}1{% else %}0{% endif %},
+    delayedPayment: {% if this.isDelayedPaymentEnabled() %}1{% else %}0{% endif %},
+    savedCardFieldName: 'savedCardId',
+  }
+</script>
+

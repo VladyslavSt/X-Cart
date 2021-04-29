@@ -1,0 +1,6 @@
+Version 5.4.1.4
+
+Fixes (2)
+2021-03-15 - [Bug] JS error in the console at checkout with CDev-SocialLogin configured. Fixed. #XCB-360 #CDev-SocialLogin
+2021-03-16 - [Bug] Fatal error if logging in via Facebook (with the add-on CDev-SocialLogin configured). Fixed. #XCB-358 #CDev-SocialLogin
+

@@ -1,0 +1,6 @@
+Version 5.4.2.0
+
+Improvements (2)
+2021-02-28 - [Story] Added a new payment method - Stripe Connect. #XCC-1767 #XC-Stripe
+2021-02-28 - [Story] Migrate Stripe from legacy version to the new one. #ECOM-53 #XC-Stripe
+

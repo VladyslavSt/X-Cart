@@ -1,0 +1,8 @@
+Version 5.4.0.16
+
+Improvements (1)
+2021-02-11 - [Story] Added a new setting: Terms and conditions agreement type = Clickwrap | Browsewrap. #XCC-1545 #CDev-Core #XC-FastLaneCheckout
+
+Fixes (1)
+2021-02-19 - [Bug] The availability of the Place order button did not depend on the "I accept the Terms & Conditions" checkbox option for Clickwrap mode. Fixed. Now with any settings the "Terms & Conditions" open in a popup. #XCB-340 #CDev-Core #CDev-Paypal #XC-FastLaneCheckout
+
