@@ -3,6 +3,6 @@
         "x-cart-proj/x-cart-proj": {
             "dev-master": { @composer.json }
         },
-	"minimum-stability": "dev"
+	"minimum-stability": "dev-master"
     }
 }
