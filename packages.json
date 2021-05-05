@@ -1,6 +1,6 @@
 {
     "packages": {
-        "vladyslav/x-cart-proj": {
+        "x-cart-proj/x-cart-proj": {
             "dev-master": { @composer.json }
         },
 	"minimum-stability": "dev"
