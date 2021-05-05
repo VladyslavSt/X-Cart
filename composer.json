@@ -5,7 +5,7 @@
         "url": "https://github.com/VladyslavSt/X-Cart/archive/refs/heads/main.zip",
         "type": "zip"
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "license": [
        "LGPL-2.1-only",
        "GPL-3.0-or-later"
