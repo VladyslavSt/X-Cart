@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "vladyslav/x-cart-proj": {
+            "dev-master": { @composer.json }
+        }
+    }
+}

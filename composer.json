@@ -1,0 +1,8 @@
+{
+    "name": "xcart/xcart",
+    "version": "3.1.7",
+    "dist": {
+        "url": "https://github.com/VladyslavSt/X-Cart/archive/refs/heads/main.zip",
+        "type": "zip"
+    }
+}
